@@ -1,0 +1,1344 @@
+{
+  "1": {
+    "id": 1,
+    "name": "青铜I",
+    "icon": "common/Grade1_1.png",
+    "bigicon": "settlement/Grade1.png",
+    "gradeicon": "settlement/1.png",
+    "task1": [
+      {
+        "sumScore": 500
+      }
+    ],
+    "task2": [
+      {
+        "sumScore": 1000
+      }
+    ],
+    "task3": [
+      {
+        "sumScore": 2000
+      }
+    ],
+    "task4": [
+      {
+        "sumScore": 4000
+      },
+      {
+        "highScore": 3000
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 1011,
+        "time": 120
+      },
+      {
+        "ai": 1012,
+        "time": 165
+      },
+      {
+        "ai": 1013,
+        "time": 210
+      },
+      {
+        "ai": 1014,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "2": {
+    "id": 2,
+    "name": "青铜II",
+    "icon": "common/Grade1_2.png",
+    "bigicon": "settlement/Grade1.png",
+    "gradeicon": "settlement/2.png",
+    "task1": [
+      {
+        "highScore": 3500
+      }
+    ],
+    "task2": [
+      {
+        "highScore": 4000
+      }
+    ],
+    "task3": [
+      {
+        "highScore": 4500
+      }
+    ],
+    "task4": [
+      {
+        "highScore": 5000
+      },
+      {
+        "killCnt": 20
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 1021,
+        "time": 210
+      },
+      {
+        "ai": 1021,
+        "time": 210
+      },
+      {
+        "ai": 1022,
+        "time": 210
+      },
+      {
+        "ai": 1022,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "3": {
+    "id": 3,
+    "name": "青铜III",
+    "icon": "common/Grade1_3.png",
+    "bigicon": "settlement/Grade1.png",
+    "gradeicon": "settlement/3.png",
+    "task1": [
+      {
+        "highScore": 5000
+      },
+      {
+        "killCnt": 25
+      }
+    ],
+    "task2": [
+      {
+        "highScore": 5000
+      },
+      {
+        "killCnt": 25
+      }
+    ],
+    "task3": [
+      {
+        "highScore": 5000
+      },
+      {
+        "killCnt": 30
+      }
+    ],
+    "task4": [
+      {
+        "highScore": 5000
+      },
+      {
+        "killCnt": 35
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2002,
+        "time": 210
+      },
+      {
+        "ai": 1031,
+        "time": 210
+      },
+      {
+        "ai": 1031,
+        "time": 210
+      },
+      {
+        "ai": 1031,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "4": {
+    "id": 4,
+    "name": "白银I",
+    "icon": "common/Grade2_1.png",
+    "bigicon": "settlement/Grade2.png",
+    "gradeicon": "settlement/1.png",
+    "task1": [
+      {
+        "endRank": 10
+      },
+      {
+        "killCnt": 35
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 10
+      },
+      {
+        "killCnt": 35
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 10
+      },
+      {
+        "killCnt": 35
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 5
+      },
+      {
+        "killCnt": 35
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2002,
+        "time": 210
+      },
+      {
+        "ai": 1111,
+        "time": 210
+      },
+      {
+        "ai": 1111,
+        "time": 210
+      },
+      {
+        "ai": 1111,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "5": {
+    "id": 5,
+    "name": "白银II",
+    "icon": "common/Grade2_2.png",
+    "bigicon": "settlement/Grade2.png",
+    "gradeicon": "settlement/2.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 12000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 12000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 12000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 12000
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2002,
+        "time": 210
+      },
+      {
+        "ai": 1121,
+        "time": 210
+      },
+      {
+        "ai": 1121,
+        "time": 210
+      },
+      {
+        "ai": 1121,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "6": {
+    "id": 6,
+    "name": "白银III",
+    "icon": "common/Grade2_3.png",
+    "bigicon": "settlement/Grade2.png",
+    "gradeicon": "settlement/3.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 6000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 6000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 6000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 6000
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2002,
+        "time": 210
+      },
+      {
+        "ai": 1131,
+        "time": 210
+      },
+      {
+        "ai": 1131,
+        "time": 210
+      },
+      {
+        "ai": 1131,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "7": {
+    "id": 7,
+    "name": "黄金I",
+    "icon": "common/Grade3_1.png",
+    "bigicon": "settlement/Grade3.png",
+    "gradeicon": "settlement/1.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 15000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 15000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 15000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 15000
+      },
+      {
+        "doubleKill": 1
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2002,
+        "time": 210
+      },
+      {
+        "ai": 1211,
+        "time": 210
+      },
+      {
+        "ai": 1211,
+        "time": 210
+      },
+      {
+        "ai": 1211,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "8": {
+    "id": 8,
+    "name": "黄金II",
+    "icon": "common/Grade3_2.png",
+    "bigicon": "settlement/Grade3.png",
+    "gradeicon": "settlement/2.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 10000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 10000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 10000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 10000
+      },
+      {
+        "doubleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2002,
+        "time": 210
+      },
+      {
+        "ai": 1221,
+        "time": 210
+      },
+      {
+        "ai": 1221,
+        "time": 210
+      },
+      {
+        "ai": 1221,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "9": {
+    "id": 9,
+    "name": "黄金III",
+    "icon": "common/Grade3_3.png",
+    "bigicon": "settlement/Grade3.png",
+    "gradeicon": "settlement/3.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "killCnt": 40
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "killCnt": 40
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "killCnt": 40
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "killCnt": 40
+      },
+      {
+        "doubleKill": 3
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2002,
+        "time": 210
+      },
+      {
+        "ai": 1231,
+        "time": 210
+      },
+      {
+        "ai": 1231,
+        "time": 210
+      },
+      {
+        "ai": 1231,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "10": {
+    "id": 10,
+    "name": "钻石I",
+    "icon": "common/Grade4_1.png",
+    "bigicon": "settlement/Grade4.png",
+    "gradeicon": "settlement/1.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 18000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 18000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 18000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "sumScore": 18000
+      },
+      {
+        "doubleKill": 3
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "11": {
+    "id": 11,
+    "name": "钻石II",
+    "icon": "common/Grade4_2.png",
+    "bigicon": "settlement/Grade4.png",
+    "gradeicon": "settlement/2.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 12000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 12000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 12000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 12000
+      },
+      {
+        "doubleKill": 3
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "12": {
+    "id": 12,
+    "name": "钻石III",
+    "icon": "common/Grade4_3.png",
+    "bigicon": "settlement/Grade4.png",
+    "gradeicon": "settlement/3.png",
+    "task1": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 14000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 14000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 14000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 3
+      },
+      {
+        "highScore": 14000
+      },
+      {
+        "doubleKill": 3
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      },
+      {
+        "ai": 1311,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "13": {
+    "id": 13,
+    "name": "大师I",
+    "icon": "common/Grade5_1.png",
+    "bigicon": "settlement/Grade5.png",
+    "gradeicon": "settlement/1.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 1
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "14": {
+    "id": 14,
+    "name": "大师II",
+    "icon": "common/Grade5_2.png",
+    "bigicon": "settlement/Grade5.png",
+    "gradeicon": "settlement/2.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 1
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "15": {
+    "id": 15,
+    "name": "大师III",
+    "icon": "common/Grade5_3.png",
+    "bigicon": "settlement/Grade5.png",
+    "gradeicon": "settlement/3.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 1
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "16": {
+    "id": 16,
+    "name": "王者I",
+    "icon": "common/Grade6_1.png",
+    "bigicon": "settlement/Grade6.png",
+    "gradeicon": "settlement/1.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "17": {
+    "id": 17,
+    "name": "王者II",
+    "icon": "common/Grade6_2.png",
+    "bigicon": "settlement/Grade6.png",
+    "gradeicon": "settlement/2.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "18": {
+    "id": 18,
+    "name": "王者III",
+    "icon": "common/Grade6_3.png",
+    "bigicon": "settlement/Grade6.png",
+    "gradeicon": "settlement/3.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "19": {
+    "id": 19,
+    "name": "传奇I",
+    "icon": "common/Grade7_1.png",
+    "bigicon": "settlement/Grade7.png",
+    "gradeicon": "settlement/1.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "20": {
+    "id": 20,
+    "name": "传奇II",
+    "icon": "common/Grade7_2.png",
+    "bigicon": "settlement/Grade7.png",
+    "gradeicon": "settlement/2.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "21": {
+    "id": 21,
+    "name": "传奇III",
+    "icon": "common/Grade7_3.png",
+    "bigicon": "settlement/Grade7.png",
+    "gradeicon": "settlement/3.png",
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "22": {
+    "id": 22,
+    "name": "神话",
+    "icon": "common/Grade8_1.png",
+    "bigicon": "settlement/Grade8.png",
+    "gradeicon": null,
+    "task1": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task2": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task3": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      }
+    ],
+    "task4": [
+      {
+        "endRank": 1
+      },
+      {
+        "sumScore": 20000
+      },
+      {
+        "tripleKill": 2
+      }
+    ],
+    "aiID": [
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      },
+      {
+        "ai": 2001,
+        "time": 210
+      }
+    ],
+    "staticGold": 500,
+    "addGold": 200
+  },
+  "null": {
+    "id": null,
+    "name": null,
+    "icon": null,
+    "bigicon": null,
+    "gradeicon": null,
+    "task1": null,
+    "task2": [],
+    "task3": null,
+    "task4": null,
+    "aiID": null,
+    "staticGold": 0,
+    "addGold": 0
+  }
+}

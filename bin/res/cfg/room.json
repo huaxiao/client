@@ -1,0 +1,10 @@
+{
+  "1": {
+    "id": 1,
+    "roomPlayerCnt": 30,
+    "AICnt": 10,
+    "fightTime": 300,
+    "fightLockTime": 180,
+    "ballRefreshTime": 5
+  }
+}

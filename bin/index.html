@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title>成长大冒险</title>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'/>
+	<meta name="renderer" content="webkit"/>
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name='full-screen' content='true' />
+	<meta name='x5-fullscreen' content='true' />
+	<meta name='360-fullscreen' content='true' />
+	<meta name="laya" screenorientation ="landscape"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta http-equiv='expires' content='0' />
+	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+	<style>
+		body {
+			background: #1F1932;
+		}
+		h2 {
+			color:white;
+		}
+		#btn {
+			cursor: pointer;
+		}
+	</style>	
+</head>
+<body>
+	<!--以下引用了常用类库，如果不使用，可以删除-->
+	
+	<!--核心包，封装了显示对象渲染，事件，时间管理，时间轴动画，缓动，消息交互,socket，本地存储，鼠标触摸，声音，加载，颜色滤镜，位图字体等-->
+	<script type="text/javascript" src="libs/laya.core.js"></script>
+	<!--提供了微信小游戏的适配-->
+	<script type="text/javascript" src="libs/laya.wxmini.js"></script>
+	<!--封装了webgl渲染管线，如果使用webgl渲染，可以在初始化时调用Laya.init(1000,800,laya.webgl.WebGL);-->
+    <script type="text/javascript" src="libs/laya.webgl.js"></script>
+	<!--是动画模块，包含了swf动画，骨骼动画等-->
+    <script type="text/javascript" src="libs/laya.ani.js"></script>
+	<!--包含更多webgl滤镜，比如外发光，阴影，模糊以及更多-->
+    <!--<script type="text/javascript" src="libs/laya.filter.js"></script>-->
+	<!--封装了html动态排版功能-->
+    <script type="text/javascript" src="libs/laya.html.js"></script>
+	<!--粒子类库-->
+    <script type="text/javascript" src="libs/laya.particle.js"></script>
+	<!--提供tileMap解析支持-->
+    <!--<script type="text/javascript" src="libs/laya.tiledmap.js"></script>	-->
+	<!--提供了制作UI的各种组件实现-->
+    <script type="text/javascript" src="libs/laya.ui.js"></script>
+	<!--启动调试面板-->
+	<!--script type="text/javascript" src="libs/laya.debugtool.js"></script-->
+	<!--IDE生成的UI文件-->
+	<script src="../src/ui/layaUI.max.all.js"></script>
+
+	<script src="plugins/aladinSDK.js"></script>
+	
+	<!--自定义的js(bin/js文件夹下)文件自动添加到下面jsfile模块标签里面里，js的顺序可以手动修改，修改后保留修改的顺序，新增加的js会默认依次追加到标签里-->
+	<!--删除标签，ide不会自动添加js文件，请谨慎操作-->
+	<!--jsfile startTag -->
+	<script src="../src/gamelogic/base/Class.js"></script>
+	<script src="../src/const/GameConst.js"></script>
+
+	<script src="../src/gamelogic/3rd/behavior3.js"></script>
+	<script src="../src/gamelogic/3rd/md5.min.js"></script>
+	<script src="../src/gamelogic/3rd/Quadtree.js"></script>
+	<script src="../src/gamelogic/3rd/hmac-sha1.js"></script>
+	<script src="../src/gamelogic/const/EntityType.js"></script>
+	<script src="../src/gamelogic/const/PlayerStatus.js"></script>
+	<script src="../src/gamelogic/const/RPC.js"></script>
+	<script src="../src/gamelogic/const/EGlobalCfg.js"></script>
+	<script src="../src/gamelogic/base/Queue.js"></script>
+	<script src="../src/gamelogic/base/Circle.js"></script>
+	<script src="../src/gamelogic/base/Interface.js"></script>
+	<script src="../src/gamelogic/base/Point.js"></script>
+	<script src="../src/gamelogic/base/Line.js"></script>
+	<script src="../src/gamelogic/base/Rectangle.js"></script>	
+	<script src="../src/gamelogic/base/DoubleLink.js"></script>
+	<script src="../src/gamelogic/ai/AIActions.js"></script>
+	<script src="../src/gamelogic/ai/AIAgent.js"></script>
+	<script src="../src/gamelogic/ai/AIAgentObject.js"></script>
+	<script src="../src/gamelogic/ai/AIConditions.js"></script>
+	<script src="../src/gamelogic/ai/AIComposites.js"></script>
+	<script src="../src/gamelogic/entity/BaseEntity.js"></script>
+	<script src="../src/gamelogic/entity/EnergyBall.js"></script>
+	<script src="../src/gamelogic/entity/GameMap.js"></script>
+	<script src="../src/gamelogic/entity/MapCell.js"></script>
+	<script src="../src/gamelogic/entity/Player.js"></script>
+	<script src="../src/gamelogic/mgr/DataMgr.js"></script>
+	<script src="../src/gamelogic/mgr/MapMgr.js"></script>
+	<script src="../src/gamelogic/util/ObjectPoolUtil.js"></script>
+	<script src="../src/gamelogic/util/DateUtil.js"></script>
+	<script src="../src/gamelogic/util/TimerUtil.js"></script>
+	<script src="../src/gamelogic/util/Utils.js"></script>
+	<script src="../src/gamelogic/Statistic/PlayerKDA.js"></script>
+	<script src="../src/gamelogic/Statistic/PlayerKDAStat.js"></script>
+
+	<script src="../src/game/mgr/CheckIPMgr.js"></script>
+	<script src="../src/game/space/Space.js"></script>
+	<script src="../src/game/space/GradeSpace.js"></script>
+	<script src="../src/game/space/EndlessSpace.js"></script>
+	<script src="../src/game/gameeffect/Shake.js"></script>
+	<script src="../src/game/mgr/SkinMgr.js"></script>
+
+	<script src="../src/game/mgr/BroadcastMgr.js"></script>
+	<script src="../src/game/mgr/ServerAgency.js"></script>
+	<script src="../src/game/mgr/BuffMgr.js"></script>	
+	<script src="../src/game/mgr/GameMgr.js"></script>	
+	<script src="../src/game/mgr/RankMgr.js"></script>	
+	<script src="../src/game/mgr/TaskMgr.js"></script>	
+	<script src="../src/game/mgr/MiniServer.js"></script>
+	<script src="../src/game/util/StringUtil.js"></script>
+	<script src="../src/game/actor/BallActor.js"></script>
+	<script src="../src/game/actor/GameMapActor.js"></script>
+	<script src="../src/game/actor/PlayerActor.js"></script>
+	<script src="../src/game/data/GameData.js"></script>
+	<script src="../src/game/data/User.js"></script>
+	<script src="../src/game/data/Goods.js"></script>
+	<script src="../src/game/joystick/JoystickModule.js"> </script>
+	<script src="../src/game/skin/Skin.js"> </script>
+	
+	<script src="../src/const/EEvent.js"></script>
+	<script src="../src/const/ENet.js"></script>
+	<script src="../src/const/ERes.js"></script>
+	<script src="../src/const/ResPreload.js"></script>
+	
+	<script src="../src/core/mgr/EventMgr.js"></script>
+	<script src="../src/core/mgr/NetMgr.js"></script>
+	<script src="../src/core/mgr/UIMgr.js"></script>
+	<script src="../src/core/mgr/SoundMgr.js"></script>
+	<script src="../src/core/mgr/ResMgr.js"></script>	
+	<script src="../src/core/network/HttpLaya.js"></script>
+	<script src="../src/core/network/StateObject.js"></script>
+	<script src="../src/core/network/PomeloLaya.js"></script>
+	
+	<script src="../src/window/runtime/UIAdapter.js"></script>
+	<script src="../src/window/view/MainView.js"></script>
+	<script src="../src/window/view/DialogView.js"></script>
+	<script src="../src/window/view/LoadingView.js"></script>
+	<script src="../src/window/view/StartView.js"></script>
+	<script src="../src/window/view/SettlementView.js"></script>
+	<script src="../src/window/view/OfflineSettlementView.js"></script>
+	<script src="../src/window/view/EndlessSettlementView.js"></script>
+	<script src="../src/window/view/SettingView.js"></script>
+	<script src="../src/window/view/RankView.js"></script>
+	<script src="../src/window/view/OneLifeView.js"></script>
+	<script src="../src/window/view/DailyReviveView.js"></script>
+	<script src="../src/window/view/InvincibleView.js"></script>
+	<script src="../src/window/view/ShopView.js"></script>
+	<script src="../src/window/view/VideoAdView.js"></script>
+	<script src="../src/window/view/EndlessOneLifeView.js"></script>
+	<script src="../src/window/view/SkinShowView.js"></script>
+	<script src="../src/window/view/VideoFailView.js"></script>
+	<script src="../src/window/view/AttributeView.js"></script>
+
+	<script src="../src/sdk/SDK_Wechat.js"></script>	
+	<script src="../src/sdk/SDKMgr.js"></script>
+
+	<!--注意需放后面-->
+	<script src="../src/const/EUI.js"></script>
+	<script src="../src/GameMain.js"></script>
+	<!--jsfile endTag-->
+</body>
+</html>

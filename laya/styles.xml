@@ -1,0 +1,32 @@
+<res>
+   <item name="sounds" type="" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="map" type="" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="spine" type="" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="res" type="" compress="0" pack="2" quality="80" props="" picType="0" scale="0"/>
+   <item name="map/tiledbackground.png" type="Image" compress="0" pack="0" quality="80" props="" picType="1" scale="0"/>
+   <item name="map/border-sheet0.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=10,10,10,10" picType="0" scale="0"/>
+   <item name="main/energyBar.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,80,0,40" picType="0" scale="0"/>
+   <item name="main/atk.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="comp/bg_kuang.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=77,0,20,0" picType="0" scale="0"/>
+   <item name="comp/star.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="settlement" type="" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="settlement/bg_kuang.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="map/border.png" type="Image" compress="0" pack="0" quality="80" props="" picType="1" scale="0"/>
+   <item name="map/mapframe-line.png" type="Image" compress="0" pack="0" quality="80" props="" picType="1" scale="0"/>
+   <item name="map/mapframe-corner.png" type="Image" compress="0" pack="0" quality="80" props="" picType="1" scale="0"/>
+   <item name="comp/hslider.png" type="Slider" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="main/leadboard_background.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=10,25,10,17" picType="0" scale="0"/>
+   <item name="main/progress.png" type="ProgressBar" compress="0" pack="0" quality="80" props="" picType="0" scale="0"/>
+   <item name="rank/Ranktitle.png" type="Image" compress="0" pack="0" quality="80" props="" picType="1" scale="0"/>
+   <item name="main/energy.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=1,1,1,1" picType="0" scale="0"/>
+   <item name="rank/tab1.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,48,0,48" picType="0" scale="0"/>
+   <item name="rank/tab2.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,48,0,48" picType="0" scale="0"/>
+   <item name="rank/share.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=46,56,46,56" picType="0" scale="0"/>
+   <item name="onelife/bg1.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=10,13,16,12" picType="0" scale="0"/>
+   <item name="common/bg1.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=16,16,16,16" picType="0" scale="0"/>
+   <item name="common/btn2.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=42,52,37,51" picType="0" scale="0"/>
+   <item name="common/btn1.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,53,0,93" picType="0" scale="0"/>
+   <item name="common/btn3.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=0,42,0,117" picType="0" scale="0"/>
+   <item name="main/taskbg.png" type="Image" compress="0" pack="0" quality="80" props="sizeGrid=22,22,22,22" picType="0" scale="0"/>
+   <item name="effect/baozou/buff_wudi01.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+</res>

@@ -1,0 +1,267 @@
+{
+  "1": {
+    "lv": 1,
+    "starCnt": 3,
+    "title": "学龄前"
+  },
+  "2": {
+    "lv": 2,
+    "starCnt": 3,
+    "title": "幼儿园小班"
+  },
+  "3": {
+    "lv": 3,
+    "starCnt": 3,
+    "title": "幼儿园中班"
+  },
+  "4": {
+    "lv": 4,
+    "starCnt": 3,
+    "title": "幼儿园大班"
+  },
+  "5": {
+    "lv": 5,
+    "starCnt": 3,
+    "title": "学前班"
+  },
+  "6": {
+    "lv": 6,
+    "starCnt": 5,
+    "title": "小学一年级"
+  },
+  "7": {
+    "lv": 7,
+    "starCnt": 5,
+    "title": "小学二年级"
+  },
+  "8": {
+    "lv": 8,
+    "starCnt": 5,
+    "title": "小学三年级"
+  },
+  "9": {
+    "lv": 9,
+    "starCnt": 5,
+    "title": "小学四年级"
+  },
+  "10": {
+    "lv": 10,
+    "starCnt": 5,
+    "title": "小学五年级"
+  },
+  "11": {
+    "lv": 11,
+    "starCnt": 5,
+    "title": "初中一年级"
+  },
+  "12": {
+    "lv": 12,
+    "starCnt": 5,
+    "title": "初中二年级"
+  },
+  "13": {
+    "lv": 13,
+    "starCnt": 5,
+    "title": "初中三年级"
+  },
+  "14": {
+    "lv": 14,
+    "starCnt": 5,
+    "title": "高中一年级"
+  },
+  "15": {
+    "lv": 15,
+    "starCnt": 5,
+    "title": "高中二年级"
+  },
+  "16": {
+    "lv": 16,
+    "starCnt": 5,
+    "title": "高中三年级"
+  },
+  "17": {
+    "lv": 17,
+    "starCnt": 5,
+    "title": "大学一年级"
+  },
+  "18": {
+    "lv": 18,
+    "starCnt": 5,
+    "title": "大学二年级"
+  },
+  "19": {
+    "lv": 19,
+    "starCnt": 5,
+    "title": "大学三年级"
+  },
+  "20": {
+    "lv": 20,
+    "starCnt": 5,
+    "title": "大学四年级"
+  },
+  "21": {
+    "lv": 21,
+    "starCnt": 5,
+    "title": "研究生一年级"
+  },
+  "22": {
+    "lv": 22,
+    "starCnt": 5,
+    "title": "研究生二年级"
+  },
+  "23": {
+    "lv": 23,
+    "starCnt": 5,
+    "title": "研究生三年级"
+  },
+  "24": {
+    "lv": 24,
+    "starCnt": 5,
+    "title": "博士I"
+  },
+  "25": {
+    "lv": 25,
+    "starCnt": 5,
+    "title": "博士II"
+  },
+  "26": {
+    "lv": 26,
+    "starCnt": 5,
+    "title": "博士III"
+  },
+  "27": {
+    "lv": 27,
+    "starCnt": 5,
+    "title": "博士IV"
+  },
+  "28": {
+    "lv": 28,
+    "starCnt": 5,
+    "title": "博士V"
+  },
+  "29": {
+    "lv": 29,
+    "starCnt": 5,
+    "title": "博士VI"
+  },
+  "30": {
+    "lv": 30,
+    "starCnt": 5,
+    "title": "博士VII"
+  },
+  "31": {
+    "lv": 31,
+    "starCnt": 5,
+    "title": "博士VIII"
+  },
+  "32": {
+    "lv": 32,
+    "starCnt": 5,
+    "title": "博士IX"
+  },
+  "33": {
+    "lv": 33,
+    "starCnt": 5,
+    "title": "博士X"
+  },
+  "34": {
+    "lv": 34,
+    "starCnt": 5,
+    "title": "副教授I"
+  },
+  "35": {
+    "lv": 35,
+    "starCnt": 5,
+    "title": "副教授II"
+  },
+  "36": {
+    "lv": 36,
+    "starCnt": 5,
+    "title": "副教授III"
+  },
+  "37": {
+    "lv": 37,
+    "starCnt": 5,
+    "title": "副教授IV"
+  },
+  "38": {
+    "lv": 38,
+    "starCnt": 5,
+    "title": "副教授V"
+  },
+  "39": {
+    "lv": 39,
+    "starCnt": 5,
+    "title": "副教授VI"
+  },
+  "40": {
+    "lv": 40,
+    "starCnt": 5,
+    "title": "副教授VII"
+  },
+  "41": {
+    "lv": 41,
+    "starCnt": 5,
+    "title": "副教授VIII"
+  },
+  "42": {
+    "lv": 42,
+    "starCnt": 5,
+    "title": "副教授IX"
+  },
+  "43": {
+    "lv": 43,
+    "starCnt": 5,
+    "title": "副教授X"
+  },
+  "44": {
+    "lv": 44,
+    "starCnt": 5,
+    "title": "教授I"
+  },
+  "45": {
+    "lv": 45,
+    "starCnt": 5,
+    "title": "教授II"
+  },
+  "46": {
+    "lv": 46,
+    "starCnt": 5,
+    "title": "教授III"
+  },
+  "47": {
+    "lv": 47,
+    "starCnt": 5,
+    "title": "教授IV"
+  },
+  "48": {
+    "lv": 48,
+    "starCnt": 5,
+    "title": "教授V"
+  },
+  "49": {
+    "lv": 49,
+    "starCnt": 5,
+    "title": "教授VI"
+  },
+  "50": {
+    "lv": 50,
+    "starCnt": 5,
+    "title": "教授VII"
+  },
+  "51": {
+    "lv": 51,
+    "starCnt": 5,
+    "title": "教授VIII"
+  },
+  "52": {
+    "lv": 52,
+    "starCnt": 5,
+    "title": "教授IX"
+  },
+  "53": {
+    "lv": 53,
+    "starCnt": 5,
+    "title": "教授X"
+  }
+}

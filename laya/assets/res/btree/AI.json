@@ -1,0 +1,1307 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "c5201bdb-6528-4810-8e38-6d42a79155d9",
+  "title": "AI",
+  "description": "简单AI",
+  "root": "54ccf96b-32fe-4705-8e89-7e12d6e77a44",
+  "properties": {},
+  "nodes": {
+    "355ea09e-5761-48df-84a0-bd792c0d9583": {
+      "id": "355ea09e-5761-48df-84a0-bd792c0d9583",
+      "name": "IsCanAttack",
+      "title": "是否可以攻击",
+      "description": "是否可以攻击",
+      "properties": {},
+      "display": {
+        "x": -936,
+        "y": -1260
+      }
+    },
+    "1582633d-9fb1-4f0c-81ef-de5d22af72dd": {
+      "id": "1582633d-9fb1-4f0c-81ef-de5d22af72dd",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -1188,
+        "y": -252
+      },
+      "children": [
+        "355ea09e-5761-48df-84a0-bd792c0d9583",
+        "aba9ad17-0986-4f5e-b05c-52c7ab90eeab"
+      ]
+    },
+    "8435da8d-87d6-4904-aeb8-80f7eefe9885": {
+      "id": "8435da8d-87d6-4904-aeb8-80f7eefe9885",
+      "name": "IsCanMoveToPos",
+      "title": "是否目标点可到达",
+      "description": "是否目标点可到达",
+      "properties": {},
+      "display": {
+        "x": -576,
+        "y": 1920
+      }
+    },
+    "69189144-1fa0-492c-8cf9-a6ecb2b78d5b": {
+      "id": "69189144-1fa0-492c-8cf9-a6ecb2b78d5b",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -780,
+        "y": 2016
+      },
+      "children": [
+        "8435da8d-87d6-4904-aeb8-80f7eefe9885",
+        "1650d855-0184-4fb2-86db-43058391aba2"
+      ]
+    },
+    "5bf5ec57-e403-485c-85d9-a4f2d38e54c5": {
+      "id": "5bf5ec57-e403-485c-85d9-a4f2d38e54c5",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -936,
+        "y": 2100
+      },
+      "children": [
+        "69189144-1fa0-492c-8cf9-a6ecb2b78d5b",
+        "0376aafb-3af6-4369-b38f-4470c6762e04"
+      ]
+    },
+    "9cb40bb4-2e76-412d-9c27-cea4ef8f95ea": {
+      "id": "9cb40bb4-2e76-412d-9c27-cea4ef8f95ea",
+      "name": "Rotate",
+      "title": "转身",
+      "description": "转身",
+      "properties": {},
+      "display": {
+        "x": -612,
+        "y": 2220
+      }
+    },
+    "0376aafb-3af6-4369-b38f-4470c6762e04": {
+      "id": "0376aafb-3af6-4369-b38f-4470c6762e04",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -780,
+        "y": 2256
+      },
+      "children": [
+        "9cb40bb4-2e76-412d-9c27-cea4ef8f95ea",
+        "96a56e86-469b-40e9-9916-c39ec7bdfc21"
+      ]
+    },
+    "1650d855-0184-4fb2-86db-43058391aba2": {
+      "id": "1650d855-0184-4fb2-86db-43058391aba2",
+      "name": "Move",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 0
+      },
+      "display": {
+        "x": -564,
+        "y": 2028
+      }
+    },
+    "96a56e86-469b-40e9-9916-c39ec7bdfc21": {
+      "id": "96a56e86-469b-40e9-9916-c39ec7bdfc21",
+      "name": "Move",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 0
+      },
+      "display": {
+        "x": -600,
+        "y": 2304
+      }
+    },
+    "482a934f-e36e-440e-ba08-1ce7248081d5": {
+      "id": "482a934f-e36e-440e-ba08-1ce7248081d5",
+      "name": "IsLive",
+      "title": "是否是活的",
+      "description": "当前是否为非死亡状态",
+      "properties": {},
+      "display": {
+        "x": -1536,
+        "y": -444
+      }
+    },
+    "54ccf96b-32fe-4705-8e89-7e12d6e77a44": {
+      "id": "54ccf96b-32fe-4705-8e89-7e12d6e77a44",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -1896,
+        "y": -132
+      },
+      "children": [
+        "482a934f-e36e-440e-ba08-1ce7248081d5",
+        "8fc4d1cc-c1d1-4699-9a4f-f65580048561"
+      ]
+    },
+    "8fc4d1cc-c1d1-4699-9a4f-f65580048561": {
+      "id": "8fc4d1cc-c1d1-4699-9a4f-f65580048561",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -1500,
+        "y": 348
+      },
+      "children": [
+        "1582633d-9fb1-4f0c-81ef-de5d22af72dd",
+        "9886b23d-768a-4fd8-b825-b0e3a7bf99bd"
+      ]
+    },
+    "9c1d2921-bd0d-48bc-abd0-83c1b6535ab2": {
+      "id": "9c1d2921-bd0d-48bc-abd0-83c1b6535ab2",
+      "name": "IsEnergyballInView",
+      "title": "是否视野范围内有能量球",
+      "description": "是否视野范围内有能量球",
+      "properties": {},
+      "display": {
+        "x": -480,
+        "y": 1116
+      }
+    },
+    "e165a12a-f45f-4055-8279-2a1caae853a4": {
+      "id": "e165a12a-f45f-4055-8279-2a1caae853a4",
+      "name": "SetTarget",
+      "title": "选择目标",
+      "description": "选择目标\nsortType:\n0 选择最近目标\n\nentityType:\n0 实体(包括玩家和能量球)\n1 玩家\n2 能量球",
+      "properties": {
+        "sortType": 0,
+        "entityType": 2
+      },
+      "display": {
+        "x": -480,
+        "y": 1224
+      }
+    },
+    "7cd817ff-b98a-4732-8e68-c09a9acd108b": {
+      "id": "7cd817ff-b98a-4732-8e68-c09a9acd108b",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -756,
+        "y": 1284
+      },
+      "children": [
+        "9c1d2921-bd0d-48bc-abd0-83c1b6535ab2",
+        "e165a12a-f45f-4055-8279-2a1caae853a4",
+        "799368fa-8b26-408f-8e2d-c7fe85b78610",
+        "287b38e8-01ab-42c6-b4a0-5e8da7fd38f0",
+        "04e7e6c6-6cfc-4905-8102-2f8280563695"
+      ]
+    },
+    "799368fa-8b26-408f-8e2d-c7fe85b78610": {
+      "id": "799368fa-8b26-408f-8e2d-c7fe85b78610",
+      "name": "Rotate",
+      "title": "转身",
+      "description": "转身",
+      "properties": {},
+      "display": {
+        "x": -480,
+        "y": 1332
+      }
+    },
+    "287b38e8-01ab-42c6-b4a0-5e8da7fd38f0": {
+      "id": "287b38e8-01ab-42c6-b4a0-5e8da7fd38f0",
+      "name": "Move",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 2
+      },
+      "display": {
+        "x": -480,
+        "y": 1464
+      }
+    },
+    "498ba827-02e1-4b8a-8528-dbccbe2d26b3": {
+      "id": "498ba827-02e1-4b8a-8528-dbccbe2d26b3",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -1140,
+        "y": 1272
+      },
+      "children": [
+        "7cd817ff-b98a-4732-8e68-c09a9acd108b",
+        "5bf5ec57-e403-485c-85d9-a4f2d38e54c5"
+      ]
+    },
+    "b0911fdf-9be5-4c56-adb1-29f471e030d5": {
+      "id": "b0911fdf-9be5-4c56-adb1-29f471e030d5",
+      "name": "IsEnemyInView",
+      "title": "是否视野范围内有怪物",
+      "description": "是否视野范围内有怪物",
+      "properties": {},
+      "display": {
+        "x": -60,
+        "y": -336
+      }
+    },
+    "aba9ad17-0986-4f5e-b05c-52c7ab90eeab": {
+      "id": "aba9ad17-0986-4f5e-b05c-52c7ab90eeab",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -888,
+        "y": -132
+      },
+      "children": [
+        "c7cf37bc-3532-4dc1-8d98-4bb723b23576",
+        "60c80d3a-2fe1-4254-b6c4-95aea68aa645"
+      ]
+    },
+    "60c80d3a-2fe1-4254-b6c4-95aea68aa645": {
+      "id": "60c80d3a-2fe1-4254-b6c4-95aea68aa645",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -492,
+        "y": -12
+      },
+      "children": [
+        "b0911fdf-9be5-4c56-adb1-29f471e030d5",
+        "7d2fe76b-3b6a-427f-8fe7-99a937721369"
+      ]
+    },
+    "7d2fe76b-3b6a-427f-8fe7-99a937721369": {
+      "id": "7d2fe76b-3b6a-427f-8fe7-99a937721369",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -312,
+        "y": 228
+      },
+      "children": [
+        "2099107d-161f-44df-89b4-23c80c8c0cbc"
+      ]
+    },
+    "de061a9b-99e6-4825-b709-6d934c33fff6": {
+      "id": "de061a9b-99e6-4825-b709-6d934c33fff6",
+      "name": "HasTargetsInChaseRange",
+      "title": "是否追击范围内有怪物",
+      "description": "是否有敌人在自己的追击范围里面",
+      "properties": {},
+      "display": {
+        "x": 96,
+        "y": 0
+      }
+    },
+    "2099107d-161f-44df-89b4-23c80c8c0cbc": {
+      "id": "2099107d-161f-44df-89b4-23c80c8c0cbc",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -108,
+        "y": 240
+      },
+      "children": [
+        "de061a9b-99e6-4825-b709-6d934c33fff6",
+        "35a9806a-7366-4be0-863f-85c29b5b8f92"
+      ]
+    },
+    "35a9806a-7366-4be0-863f-85c29b5b8f92": {
+      "id": "35a9806a-7366-4be0-863f-85c29b5b8f92",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 204,
+        "y": 288
+      },
+      "children": [
+        "bb10bc61-758b-4485-b2fb-2dad95dfaddd",
+        "65914362-4746-4e72-8577-d52b7fb74367"
+      ]
+    },
+    "bb10bc61-758b-4485-b2fb-2dad95dfaddd": {
+      "id": "bb10bc61-758b-4485-b2fb-2dad95dfaddd",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 480,
+        "y": -96
+      },
+      "children": [
+        "49540baf-90db-4a6f-af40-8d6eebaf36e9",
+        "114bd6df-9f54-4633-b81d-65b8373ef7c7"
+      ]
+    },
+    "49540baf-90db-4a6f-af40-8d6eebaf36e9": {
+      "id": "49540baf-90db-4a6f-af40-8d6eebaf36e9",
+      "name": "IsEnemyInAttack",
+      "title": "是否攻击范围内有怪物",
+      "description": "是否攻击范围内有怪物",
+      "properties": {},
+      "display": {
+        "x": 756,
+        "y": -204
+      }
+    },
+    "114bd6df-9f54-4633-b81d-65b8373ef7c7": {
+      "id": "114bd6df-9f54-4633-b81d-65b8373ef7c7",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 672,
+        "y": -24
+      },
+      "children": [
+        "2931dc35-a98c-4893-a0fc-725e7278d904",
+        "a3cf807a-b93e-47da-8f32-c6139aadb639"
+      ]
+    },
+    "d1005294-d39d-4045-9834-b7e9bc150edb": {
+      "id": "d1005294-d39d-4045-9834-b7e9bc150edb",
+      "name": "IsEnemyInAttackAngle",
+      "title": "是否攻击角度内有怪物",
+      "description": "是否攻击角度内有怪物",
+      "properties": {},
+      "display": {
+        "x": 1068,
+        "y": -180
+      }
+    },
+    "2931dc35-a98c-4893-a0fc-725e7278d904": {
+      "id": "2931dc35-a98c-4893-a0fc-725e7278d904",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 864,
+        "y": -132
+      },
+      "children": [
+        "d1005294-d39d-4045-9834-b7e9bc150edb",
+        "887c54d3-3f6d-4acf-8c4d-ae0b8d7cb647",
+        "a3e48284-468b-42df-8f89-ca415a3cd156"
+      ]
+    },
+    "887c54d3-3f6d-4acf-8c4d-ae0b8d7cb647": {
+      "id": "887c54d3-3f6d-4acf-8c4d-ae0b8d7cb647",
+      "name": "SetTarget",
+      "title": "选择目标",
+      "description": "选择目标\nsortType:\n0 选择最近目标\n\nentityType:\n0 实体(包括玩家和能量球)\n1 玩家\n2 能量球",
+      "properties": {
+        "sortType": 0,
+        "entityType": 1
+      },
+      "display": {
+        "x": 1092,
+        "y": -108
+      }
+    },
+    "a3e48284-468b-42df-8f89-ca415a3cd156": {
+      "id": "a3e48284-468b-42df-8f89-ca415a3cd156",
+      "name": "Attack",
+      "title": "攻击",
+      "description": "攻击行为",
+      "properties": {},
+      "display": {
+        "x": 1092,
+        "y": -12
+      }
+    },
+    "a3cf807a-b93e-47da-8f32-c6139aadb639": {
+      "id": "a3cf807a-b93e-47da-8f32-c6139aadb639",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 852,
+        "y": 120
+      },
+      "children": [
+        "5ba65bd5-6860-4e16-8e67-17255d09fff7",
+        "4342607e-2b8b-4cb7-ab46-738e00bd59df",
+        "e5fed500-198b-4356-9dba-0e7a3aea7f5b"
+      ]
+    },
+    "5ba65bd5-6860-4e16-8e67-17255d09fff7": {
+      "id": "5ba65bd5-6860-4e16-8e67-17255d09fff7",
+      "name": "SetTarget",
+      "title": "选择目标",
+      "description": "选择目标\nsortType:\n0 选择最近目标\n\nentityType:\n0 实体(包括玩家和能量球)\n1 玩家\n2 能量球",
+      "properties": {
+        "sortType": 0,
+        "entityType": 1
+      },
+      "display": {
+        "x": 1104,
+        "y": 72
+      }
+    },
+    "4342607e-2b8b-4cb7-ab46-738e00bd59df": {
+      "id": "4342607e-2b8b-4cb7-ab46-738e00bd59df",
+      "name": "Rotate",
+      "title": "转身",
+      "description": "转身",
+      "properties": {},
+      "display": {
+        "x": 1104,
+        "y": 144
+      }
+    },
+    "e5fed500-198b-4356-9dba-0e7a3aea7f5b": {
+      "id": "e5fed500-198b-4356-9dba-0e7a3aea7f5b",
+      "name": "Attack",
+      "title": "攻击",
+      "description": "攻击行为",
+      "properties": {},
+      "display": {
+        "x": 1104,
+        "y": 228
+      }
+    },
+    "89915bef-8c11-40cc-8b29-2d943aecb412": {
+      "id": "89915bef-8c11-40cc-8b29-2d943aecb412",
+      "name": "SetTarget",
+      "title": "选择目标",
+      "description": "选择目标\nsortType:\n0 选择最近目标\n\nentityType:\n0 实体(包括玩家和能量球)\n1 玩家\n2 能量球",
+      "properties": {
+        "sortType": 0,
+        "entityType": 1
+      },
+      "display": {
+        "x": 684,
+        "y": 276
+      }
+    },
+    "65914362-4746-4e72-8577-d52b7fb74367": {
+      "id": "65914362-4746-4e72-8577-d52b7fb74367",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 360,
+        "y": 384
+      },
+      "children": [
+        "89915bef-8c11-40cc-8b29-2d943aecb412",
+        "3926dd5c-988e-4891-85fd-1f84a3987b65",
+        "3a4009bd-f5e4-466f-8b5c-2f1dcf417e2b"
+      ]
+    },
+    "3926dd5c-988e-4891-85fd-1f84a3987b65": {
+      "id": "3926dd5c-988e-4891-85fd-1f84a3987b65",
+      "name": "Rotate",
+      "title": "转身",
+      "description": "转身",
+      "properties": {},
+      "display": {
+        "x": 696,
+        "y": 384
+      }
+    },
+    "3a4009bd-f5e4-466f-8b5c-2f1dcf417e2b": {
+      "id": "3a4009bd-f5e4-466f-8b5c-2f1dcf417e2b",
+      "name": "Move",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 1
+      },
+      "display": {
+        "x": 696,
+        "y": 516
+      }
+    },
+    "c7cf37bc-3532-4dc1-8d98-4bb723b23576": {
+      "id": "c7cf37bc-3532-4dc1-8d98-4bb723b23576",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -588,
+        "y": -1068
+      },
+      "children": [
+        "fd4245a5-6448-471b-9418-e33feff3234c",
+        "e670c5bc-764a-4323-af43-79794e45791b"
+      ]
+    },
+    "fd4245a5-6448-471b-9418-e33feff3234c": {
+      "id": "fd4245a5-6448-471b-9418-e33feff3234c",
+      "name": "IsSelectTargetType",
+      "title": "选中目标是否为某种类型",
+      "description": "选中的目标是是否为某种类型\n1： 玩家\n2：能量球",
+      "properties": {
+        "targetType": 1
+      },
+      "display": {
+        "x": -336,
+        "y": -1344
+      }
+    },
+    "e670c5bc-764a-4323-af43-79794e45791b": {
+      "id": "e670c5bc-764a-4323-af43-79794e45791b",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -408,
+        "y": -1032
+      },
+      "children": [
+        "3f8708d4-5ef2-49b6-b0a7-2abdb89b150a"
+      ]
+    },
+    "b947454c-a5e5-4705-819d-047e2097f5fe": {
+      "id": "b947454c-a5e5-4705-819d-047e2097f5fe",
+      "name": "ClearTarget",
+      "title": "清理目标",
+      "description": "取消当前选中的目标",
+      "properties": {},
+      "display": {
+        "x": 504,
+        "y": -1500
+      }
+    },
+    "56437d2b-f9ac-478a-8493-55108e23f3b3": {
+      "id": "56437d2b-f9ac-478a-8493-55108e23f3b3",
+      "name": "IsTargetInChase",
+      "title": "目标是否还在追击范围内",
+      "description": "当前追击的目标是否脱离了追击范围",
+      "properties": {},
+      "display": {
+        "x": 228,
+        "y": -1560
+      }
+    },
+    "5647941b-0ca6-48f1-8b23-7572621d6f97": {
+      "id": "5647941b-0ca6-48f1-8b23-7572621d6f97",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 288,
+        "y": -1020
+      },
+      "children": [
+        "65c17f9a-1965-402a-95c2-f5d1c0b436d2",
+        "f0e4db5f-54ee-4468-a489-f73435bd204f"
+      ]
+    },
+    "65c17f9a-1965-402a-95c2-f5d1c0b436d2": {
+      "id": "65c17f9a-1965-402a-95c2-f5d1c0b436d2",
+      "name": "IsEnemyInAttack",
+      "title": "是否攻击范围内有怪物",
+      "description": "是否攻击范围内有怪物",
+      "properties": {},
+      "display": {
+        "x": 564,
+        "y": -1128
+      }
+    },
+    "f0e4db5f-54ee-4468-a489-f73435bd204f": {
+      "id": "f0e4db5f-54ee-4468-a489-f73435bd204f",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 480,
+        "y": -948
+      },
+      "children": [
+        "e7943e55-cdc6-42f5-9c6e-6b89005cb31e",
+        "a528b791-1c03-482d-8eb9-b6a713fa99f0"
+      ]
+    },
+    "cc6e0fb4-f869-4acd-acde-3875ba519922": {
+      "id": "cc6e0fb4-f869-4acd-acde-3875ba519922",
+      "name": "IsEnemyInAttackAngle",
+      "title": "是否攻击角度内有怪物",
+      "description": "是否攻击角度内有怪物",
+      "properties": {},
+      "display": {
+        "x": 876,
+        "y": -1104
+      }
+    },
+    "e7943e55-cdc6-42f5-9c6e-6b89005cb31e": {
+      "id": "e7943e55-cdc6-42f5-9c6e-6b89005cb31e",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 672,
+        "y": -1056
+      },
+      "children": [
+        "cc6e0fb4-f869-4acd-acde-3875ba519922",
+        "47336f50-e900-414b-b6f2-798f8c1c5716",
+        "bd4e2fc6-4d72-4f02-b88c-eb63e7ad87f6"
+      ]
+    },
+    "47336f50-e900-414b-b6f2-798f8c1c5716": {
+      "id": "47336f50-e900-414b-b6f2-798f8c1c5716",
+      "name": "SetTarget",
+      "title": "选择目标",
+      "description": "选择目标\nsortType:\n0 选择最近目标\n\nentityType:\n0 实体(包括玩家和能量球)\n1 玩家\n2 能量球",
+      "properties": {
+        "sortType": 0,
+        "entityType": 1
+      },
+      "display": {
+        "x": 900,
+        "y": -1020
+      }
+    },
+    "bd4e2fc6-4d72-4f02-b88c-eb63e7ad87f6": {
+      "id": "bd4e2fc6-4d72-4f02-b88c-eb63e7ad87f6",
+      "name": "Attack",
+      "title": "攻击",
+      "description": "攻击行为",
+      "properties": {},
+      "display": {
+        "x": 900,
+        "y": -936
+      }
+    },
+    "a528b791-1c03-482d-8eb9-b6a713fa99f0": {
+      "id": "a528b791-1c03-482d-8eb9-b6a713fa99f0",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 660,
+        "y": -804
+      },
+      "children": [
+        "dd8c91f7-7ccc-46fc-8540-56e5a57f2ae3",
+        "d8b9eb45-d96c-4441-898f-c80a71851cc1",
+        "abcb0777-2253-4150-83ab-d1a99f85f45e"
+      ]
+    },
+    "dd8c91f7-7ccc-46fc-8540-56e5a57f2ae3": {
+      "id": "dd8c91f7-7ccc-46fc-8540-56e5a57f2ae3",
+      "name": "SetTarget",
+      "title": "选择目标",
+      "description": "选择目标\nsortType:\n0 选择最近目标\n\nentityType:\n0 实体(包括玩家和能量球)\n1 玩家\n2 能量球",
+      "properties": {
+        "sortType": 0,
+        "entityType": 1
+      },
+      "display": {
+        "x": 912,
+        "y": -852
+      }
+    },
+    "d8b9eb45-d96c-4441-898f-c80a71851cc1": {
+      "id": "d8b9eb45-d96c-4441-898f-c80a71851cc1",
+      "name": "Rotate",
+      "title": "转身",
+      "description": "转身",
+      "properties": {},
+      "display": {
+        "x": 912,
+        "y": -780
+      }
+    },
+    "abcb0777-2253-4150-83ab-d1a99f85f45e": {
+      "id": "abcb0777-2253-4150-83ab-d1a99f85f45e",
+      "name": "Attack",
+      "title": "攻击",
+      "description": "攻击行为",
+      "properties": {},
+      "display": {
+        "x": 912,
+        "y": -696
+      }
+    },
+    "5b8b4ad2-4a6e-466b-82e4-a350afadf4e7": {
+      "id": "5b8b4ad2-4a6e-466b-82e4-a350afadf4e7",
+      "name": "Move",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 1
+      },
+      "display": {
+        "x": 156,
+        "y": -1200
+      }
+    },
+    "63aa6458-b8a5-4591-ab9a-c3bf81060e6f": {
+      "id": "63aa6458-b8a5-4591-ab9a-c3bf81060e6f",
+      "name": "IsSelectTargetType",
+      "title": "选中目标是否为某种类型",
+      "description": "选中的目标是是否为某种类型\n1： 玩家\n2：能量球",
+      "properties": {
+        "targetType": 2
+      },
+      "display": {
+        "x": -672,
+        "y": 300
+      }
+    },
+    "dcc736c6-de53-43a9-88ec-39bc1e79aa26": {
+      "id": "dcc736c6-de53-43a9-88ec-39bc1e79aa26",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -984,
+        "y": 384
+      },
+      "children": [
+        "63aa6458-b8a5-4591-ab9a-c3bf81060e6f",
+        "d80203f3-3c5f-446d-8397-53593fb31dd6"
+      ]
+    },
+    "d80203f3-3c5f-446d-8397-53593fb31dd6": {
+      "id": "d80203f3-3c5f-446d-8397-53593fb31dd6",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -840,
+        "y": 492
+      },
+      "children": [
+        "45d422a1-77b8-424c-96d2-1c15d02d4098",
+        "6e1b3178-e355-47fd-b8fc-8c65802b1925"
+      ]
+    },
+    "45d422a1-77b8-424c-96d2-1c15d02d4098": {
+      "id": "45d422a1-77b8-424c-96d2-1c15d02d4098",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -624,
+        "y": 456
+      },
+      "children": [
+        "2c38248a-fbca-4608-a218-d49e41723b46",
+        "beb40f80-c6e8-4fbd-b623-1b347961af1c",
+        "29cf2963-704c-4bd3-8e22-3f459b273956"
+      ]
+    },
+    "6e1b3178-e355-47fd-b8fc-8c65802b1925": {
+      "id": "6e1b3178-e355-47fd-b8fc-8c65802b1925",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -660,
+        "y": 864
+      },
+      "children": [
+        "a5689840-1490-42ca-a7f2-91a71230fd5b",
+        "f4f4be0c-82c0-41f4-b663-b7eca6b15944",
+        "6887115b-a430-49ee-92fd-1d86d7df1926",
+        "6213014a-383b-44db-8782-2024bf8d939a"
+      ]
+    },
+    "2c38248a-fbca-4608-a218-d49e41723b46": {
+      "id": "2c38248a-fbca-4608-a218-d49e41723b46",
+      "name": "IsTargetOutView",
+      "title": "是否超出视野",
+      "description": "目标是否离开视野",
+      "properties": {},
+      "display": {
+        "x": -336,
+        "y": 372
+      }
+    },
+    "beb40f80-c6e8-4fbd-b623-1b347961af1c": {
+      "id": "beb40f80-c6e8-4fbd-b623-1b347961af1c",
+      "name": "ClearTarget",
+      "title": "清理目标",
+      "description": "取消当前选中的目标",
+      "properties": {},
+      "display": {
+        "x": -336,
+        "y": 456
+      }
+    },
+    "a5689840-1490-42ca-a7f2-91a71230fd5b": {
+      "id": "a5689840-1490-42ca-a7f2-91a71230fd5b",
+      "name": "Rotate",
+      "title": "转身",
+      "description": "转身",
+      "properties": {},
+      "display": {
+        "x": -336,
+        "y": 732
+      }
+    },
+    "f4f4be0c-82c0-41f4-b663-b7eca6b15944": {
+      "id": "f4f4be0c-82c0-41f4-b663-b7eca6b15944",
+      "name": "Move",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 2
+      },
+      "display": {
+        "x": -336,
+        "y": 816
+      }
+    },
+    "d7f3769b-5773-4b95-958d-2440b274ba9f": {
+      "id": "d7f3769b-5773-4b95-958d-2440b274ba9f",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -1236,
+        "y": 780
+      },
+      "children": [
+        "dcc736c6-de53-43a9-88ec-39bc1e79aa26",
+        "498ba827-02e1-4b8a-8528-dbccbe2d26b3"
+      ]
+    },
+    "da43bab1-982a-4300-899b-fb8926666135": {
+      "id": "da43bab1-982a-4300-899b-fb8926666135",
+      "name": "IsReachTarget",
+      "title": "是否到达目标",
+      "description": "是否到达目标点",
+      "properties": {},
+      "display": {
+        "x": -228,
+        "y": 1560
+      }
+    },
+    "04e7e6c6-6cfc-4905-8102-2f8280563695": {
+      "id": "04e7e6c6-6cfc-4905-8102-2f8280563695",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -528,
+        "y": 1632
+      },
+      "children": [
+        "da43bab1-982a-4300-899b-fb8926666135",
+        "e9b019b0-b79f-4e00-8f3a-488aa5ad5c92"
+      ]
+    },
+    "e9b019b0-b79f-4e00-8f3a-488aa5ad5c92": {
+      "id": "e9b019b0-b79f-4e00-8f3a-488aa5ad5c92",
+      "name": "EatBalls",
+      "title": "吃豆",
+      "description": "吃身边的痘痘",
+      "properties": {},
+      "display": {
+        "x": -216,
+        "y": 1716
+      }
+    },
+    "6887115b-a430-49ee-92fd-1d86d7df1926": {
+      "id": "6887115b-a430-49ee-92fd-1d86d7df1926",
+      "name": "IsReachTarget",
+      "title": "是否到达目标",
+      "description": "是否到达目标点",
+      "properties": {},
+      "display": {
+        "x": -348,
+        "y": 924
+      }
+    },
+    "6213014a-383b-44db-8782-2024bf8d939a": {
+      "id": "6213014a-383b-44db-8782-2024bf8d939a",
+      "name": "EatBalls",
+      "title": "吃豆",
+      "description": "吃身边的痘痘",
+      "properties": {},
+      "display": {
+        "x": -324,
+        "y": 1020
+      }
+    },
+    "63d74ef7-1de1-4c17-9625-771b2f041cc9": {
+      "id": "63d74ef7-1de1-4c17-9625-771b2f041cc9",
+      "name": "IsAttacking",
+      "title": "是否攻击状态",
+      "description": "是否正在处于释放技能状态",
+      "properties": {},
+      "display": {
+        "x": -1176,
+        "y": 336
+      }
+    },
+    "9886b23d-768a-4fd8-b825-b0e3a7bf99bd": {
+      "id": "9886b23d-768a-4fd8-b825-b0e3a7bf99bd",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -1368,
+        "y": 636
+      },
+      "children": [
+        "63d74ef7-1de1-4c17-9625-771b2f041cc9",
+        "d7f3769b-5773-4b95-958d-2440b274ba9f"
+      ]
+    },
+    "d8934224-2328-483f-8649-d275fc786265": {
+      "id": "d8934224-2328-483f-8649-d275fc786265",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 120,
+        "y": -1380
+      },
+      "children": [
+        "b947454c-a5e5-4705-819d-047e2097f5fe",
+        "1b203d30-6364-41f4-8418-7723ca02b05e"
+      ]
+    },
+    "29cf2963-704c-4bd3-8e22-3f459b273956": {
+      "id": "29cf2963-704c-4bd3-8e22-3f459b273956",
+      "name": "Move",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 0
+      },
+      "display": {
+        "x": -336,
+        "y": 576
+      }
+    },
+    "1b203d30-6364-41f4-8418-7723ca02b05e": {
+      "id": "1b203d30-6364-41f4-8418-7723ca02b05e",
+      "name": "Failer",
+      "title": "Failer",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 492,
+        "y": -1308
+      }
+    },
+    "7e884393-819f-4bc6-bc80-0cd7061d1e39": {
+      "id": "7e884393-819f-4bc6-bc80-0cd7061d1e39",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 180,
+        "y": -924
+      },
+      "children": [
+        "5647941b-0ca6-48f1-8b23-7572621d6f97"
+      ]
+    },
+    "abc32f5b-8893-4f88-8862-8bce577eccc2": {
+      "id": "abc32f5b-8893-4f88-8862-8bce577eccc2",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -84,
+        "y": -1416
+      },
+      "children": [
+        "56437d2b-f9ac-478a-8493-55108e23f3b3",
+        "d8934224-2328-483f-8649-d275fc786265"
+      ]
+    },
+    "3f8708d4-5ef2-49b6-b0a7-2abdb89b150a": {
+      "id": "3f8708d4-5ef2-49b6-b0a7-2abdb89b150a",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -240,
+        "y": -1032
+      },
+      "children": [
+        "abc32f5b-8893-4f88-8862-8bce577eccc2",
+        "5b8b4ad2-4a6e-466b-82e4-a350afadf4e7",
+        "7e884393-819f-4bc6-bc80-0cd7061d1e39"
+      ]
+    }
+  },
+  "display": {
+    "camera_x": 986.1200000008103,
+    "camera_y": 955.0050000000047,
+    "camera_z": 0.5,
+    "x": -2220,
+    "y": -144
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsCanAttack",
+      "category": "condition",
+      "title": "是否可以攻击",
+      "description": "是否可以攻击",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsEnemyInView",
+      "category": "condition",
+      "title": "是否视野范围内有怪物",
+      "description": "是否视野范围内有怪物",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsEnergyballInView",
+      "category": "condition",
+      "title": "是否视野范围内有能量球",
+      "description": "是否视野范围内有能量球",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsEnemyInAttack",
+      "category": "condition",
+      "title": "是否攻击范围内有怪物",
+      "description": "是否攻击范围内有怪物",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsEnemyInAttackAngle",
+      "category": "condition",
+      "title": "是否攻击角度内有怪物",
+      "description": "是否攻击角度内有怪物",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Rotate",
+      "category": "action",
+      "title": "转身",
+      "description": "转身",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsCanMoveToPos",
+      "category": "condition",
+      "title": "是否目标点可到达",
+      "description": "是否目标点可到达",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Attack",
+      "category": "action",
+      "title": "攻击",
+      "description": "攻击行为",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetTarget",
+      "category": "action",
+      "title": "选择目标",
+      "description": "选择目标\nsortType:\n0 选择最近目标\n\nentityType:\n0 实体(包括玩家和能量球)\n1 玩家\n2 能量球",
+      "properties": {
+        "sortType": 0,
+        "entityType": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsReachTarget",
+      "category": "condition",
+      "title": "是否到达目标",
+      "description": "是否到达目标点",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SequenceWithRunning",
+      "category": "composite",
+      "title": "Success和Running都会往下执行的sequence",
+      "description": "Success和Running都会往下执行的sequence",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsSelectTargetType",
+      "category": "condition",
+      "title": "选中目标是否为某种类型",
+      "description": "选中的目标是是否为某种类型\n1： 玩家\n2：能量球",
+      "properties": {
+        "targetType": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsTargetOutView",
+      "category": "condition",
+      "title": "是否超出视野",
+      "description": "目标是否离开视野",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ClearTarget",
+      "category": "action",
+      "title": "清理目标",
+      "description": "取消当前选中的目标",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsDead",
+      "category": "condition",
+      "title": "是否死亡状态",
+      "description": "是否处于死亡状态",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsTargetInChase",
+      "category": "condition",
+      "title": "目标是否还在追击范围内",
+      "description": "当前追击的目标是否脱离了追击范围",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsLive",
+      "category": "condition",
+      "title": "是否是活的",
+      "description": "当前是否为非死亡状态",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "HasTargetsInChaseRange",
+      "category": "condition",
+      "title": "是否追击范围内有怪物",
+      "description": "是否有敌人在自己的追击范围里面",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsEntityInView",
+      "category": "condition",
+      "title": "是否视野范围内有单位",
+      "description": "是否视野范围内有单位",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "EatBalls",
+      "category": "action",
+      "title": "吃豆",
+      "description": "吃身边的痘痘",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Move",
+      "category": "action",
+      "title": "移动",
+      "description": "移动\nmoveType:\n0  直走\n\ntargetType:\n1  玩家\n2  能量球",
+      "properties": {
+        "moveType": 0,
+        "targetType": 0
+      }
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsAttacking",
+      "category": "condition",
+      "title": "是否攻击状态",
+      "description": "是否正在处于释放技能状态",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "IsMoving",
+      "category": "condition",
+      "title": "是否移动状态",
+      "description": "是否处于可以移动状态",
+      "properties": {}
+    }
+  ]
+}

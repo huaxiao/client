@@ -1,0 +1,50 @@
+{
+  "1": {
+    "id": 1,
+    "comment": "击杀效果Buff",
+    "effectType": 2,
+    "effectVal": 1.1,
+    "costGold": 50,
+    "durationMS": 0
+  },
+  "2": {
+    "id": 2,
+    "comment": "击杀爆豆Buff",
+    "effectType": 1,
+    "effectVal": 5,
+    "costGold": 50,
+    "durationMS": 0
+  },
+  "3": {
+    "id": 3,
+    "comment": "无敌",
+    "effectType": 3,
+    "effectVal": 0,
+    "costGold": 0,
+    "durationMS": 10000
+  },
+  "4": {
+    "id": 4,
+    "comment": "加移动速度",
+    "effectType": 4,
+    "effectVal": 4,
+    "costGold": 0,
+    "durationMS": 10000
+  },
+  "5": {
+    "id": 5,
+    "comment": "加攻击速速",
+    "effectType": 5,
+    "effectVal": 2,
+    "costGold": 0,
+    "durationMS": 10000
+  },
+  "6": {
+    "id": 6,
+    "comment": "看视频积分翻倍",
+    "effectType": 6,
+    "effectVal": 3,
+    "costGold": 0,
+    "durationMS": 0
+  }
+}

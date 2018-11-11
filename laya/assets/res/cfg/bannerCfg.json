@@ -1,0 +1,18 @@
+[
+  {
+    "pos": 3,
+    "name": "开始界面广告位",
+    "adunit": "adunit-f87d859a6397922f",
+    "hAlign": 0,
+    "vAlign": 2,
+    "w": 300
+  },
+  {
+    "pos": 18,
+    "name": "属性养成界面",
+    "adunit": "adunit-1cc54d063a57483b",
+    "hAlign": 1,
+    "vAlign": 2,
+    "w": 300
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "1": {
+    "id": 1,
+    "content": "<span style='color:#fffd4a;font-size:20'>{0}</span><span style='color:#ffffff;font-size:20'>率先痛扁了</span><span style='color:#d20ae3;font-size:20'>{1}</span><span style='color:#ffffff;font-size:20'>名玩家</span>"
+  },
+  "2": {
+    "id": 2,
+    "content": "<span style='color:#fffd4a;font-size:20'>{0}</span><span style='color:#ffffff;font-size:20'>以小博大率先达到</span><span style='color:#d20ae3;font-size:20'>{1}</span><span style='color:#ffffff;font-size:20'>次</span>"
+  },
+  "3": {
+    "id": 3,
+    "content": "<span style='color:#fffd4a;font-size:20'>{0}</span><span style='color:#ffffff;font-size:20'>累计年龄先达到</span><span style='color:#d20ae3;font-size:20'>{1}</span><span style='color:#ffffff;font-size:20'>岁</span>"
+  },
+  "4": {
+    "id": 4,
+    "content": "<span style='color:#fffd4a;font-size:20'>{0}</span><span style='color:#ffffff;font-size:20'>获得了第一滴血</span>"
+  },
+  "5": {
+    "id": 5,
+    "content": "<img src='broadcast/revenge.png' style='width:242;height:99' />"
+  },
+  "6": {
+    "id": 6,
+    "content": "<img src='broadcast/NoOne.png' style='width:235;height:64' />"
+  },
+  "7": {
+    "id": 7,
+    "content": "<img src='broadcast/topten.png' style='width:273;height:83' />"
+  },
+  "8": {
+    "id": 8,
+    "content": "<img src='broadcast/doublekill.png' style='width:139;height:43' />"
+  },
+  "9": {
+    "id": 9,
+    "content": "<img src='broadcast/triplekill.png' style='width:121;height:43' />"
+  },
+  "10": {
+    "id": 10,
+    "content": "<span style='color:#ffffff;font-size:20'>无人能挡</span>"
+  },
+  "11": {
+    "id": 11,
+    "content": "<span style='color:#ffffff;font-size:20'>主宰比赛</span>"
+  },
+  "12": {
+    "id": 12,
+    "content": "<span style='color:#ffffff;font-size:20'>如同神一般</span>"
+  },
+  "13": {
+    "id": 13,
+    "content": "<span style='color:#fffd4a;font-size:20'>{0}</span><span style='color:#ffffff;font-size:20'>击败了第一名，实在太厉害了</span>"
+  },
+  "14": {
+    "id": 14,
+    "content": "<br/><img src='broadcast/KillcountingP1.png' />{1}<img src='broadcast/KillcountingP2.png'/><span style='color:#ffffff;font-size:20'>成长了</span><span style='color:#fffd4a;font-size:20'>{0}</span><span style='color:#ffffff;font-size:20'>岁</span>"
+  },
+  "15": {
+    "id": 15,
+    "content": "一人得道"
+  },
+  "16": {
+    "id": 16,
+    "content": "再接再厉"
+  },
+  "17": {
+    "id": 17,
+    "content": "<img src='broadcast/badass.png' style='width:175;height:45' />"
+  },
+  "18": {
+    "id": 18,
+    "content": "请先完成一局快速模式"
+  },
+  "19": {
+    "id": 19,
+    "content": "<span style='color:#ffffff;font-size:29'>痛扁{0}人，获得{1}个</span><img src='common/suipian.png' style='width:28;height:28' />"
+  },
+  "101": {
+    "id": 101,
+    "content": "金币不足无法激活"
+  },
+  "102": {
+    "id": 102,
+    "content": "<span style='color:#02f0ff;font-size:30'>差</span><span style='color:#ffcb68;font-size:30'>{0}</span><span style='color:#02f0ff;font-size:30'>超越</span></span><span style='color:#d138fd;font-size:30'>{1}<span style='color:#02f0ff;font-size:30'>!</span>"
+  },
+  "103": {
+    "id": 103,
+    "content": "<span style='color:#02f0ff;font-size:30'>差</span><span style='color:#ffcb68;font-size:30'>{0}</span><span style='color:#02f0ff;font-size:30'>刷新记录<span style='color:#02f0ff;font-size:30'>!</span>"
+  },
+  "104": {
+    "id": 104,
+    "content": "<span style='color:#02f0ff;font-size:30'>正在刷新纪录，加油!</span>"
+  },
+  "105": {
+    "id": 105,
+    "content": "<span style='color:#02f0ff;font-size:18'>成长 {0} 可超越</span><span style='color:#d138fd;font-size:18'>{1}</span>"
+  },
+  "106": {
+    "id": 106,
+    "content": "<span style='color:#02f0ff;font-size:18'>成长 {0} 可刷新记录</span>"
+  },
+  "107": {
+    "id": 107,
+    "content": "<span style='color:#02f0ff;font-size:18'>复活后可更快刷新记录，加油！</span>"
+  }
+}

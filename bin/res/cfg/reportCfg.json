@@ -1,0 +1,86 @@
+{
+  "1": {
+    "id": 1,
+    "event": "launch"
+  },
+  "2": {
+    "id": 2,
+    "event": "SDK_LoginStart"
+  },
+  "3": {
+    "id": 3,
+    "event": "SDK_LoginEnd"
+  },
+  "4": {
+    "id": 4,
+    "event": "Login"
+  },
+  "5": {
+    "id": 5,
+    "event": "Logout"
+  },
+  "6": {
+    "id": 6,
+    "event": "Loading_Start"
+  },
+  "7": {
+    "id": 7,
+    "event": "Loading_End"
+  },
+  "8": {
+    "id": 8,
+    "event": "Auth"
+  },
+  "9": {
+    "id": 9,
+    "event": "Link"
+  },
+  "10": {
+    "id": 10,
+    "event": "Click_Ad"
+  },
+  "11": {
+    "id": 11,
+    "event": "Show_Ad_Reward"
+  },
+  "12": {
+    "id": 12,
+    "event": "Share"
+  },
+  "13": {
+    "id": 13,
+    "event": "Start_EndlessFight"
+  },
+  "14": {
+    "id": 14,
+    "event": "End_EndlessFight"
+  },
+  "15": {
+    "id": 15,
+    "event": "Start_GradeFight"
+  },
+  "16": {
+    "id": 16,
+    "event": "End_GradeFight"
+  },
+  "17": {
+    "id": 17,
+    "event": "DieInEndless"
+  },
+  "18": {
+    "id": 18,
+    "event": "DieInGrade"
+  },
+  "19": {
+    "id": 19,
+    "event": "EndlessDouble"
+  },
+  "20": {
+    "id": 20,
+    "event": "GradeDouble"
+  },
+  "21": {
+    "id": 21,
+    "event": "Get_Skin"
+  }
+}
